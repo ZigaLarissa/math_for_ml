@@ -6,12 +6,10 @@ import pandas as pd
 import seaborn as sns
 
 
-# load the dataset into a pandas dataframe
+# load the dataset into a pandas dataframe and print the first 10 rows
 
 df = pd.read_csv("fuel_econ.csv")
-ten_rows = df.head(10)
-# print the first 10 rows
-print(ten_rows)
+df.head(10)
 
 
 # HISTOGRAM DEPICTING DISTRIBUTION OF CO2
